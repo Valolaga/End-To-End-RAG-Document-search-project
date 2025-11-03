@@ -158,6 +158,11 @@ Have questions? Open an issue or reach out!
 <ul>
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Multi-modal RAG (images, tables, charts)</li>
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Advanced reranking (Cross-Encoders, Cohere Rerank)</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Docker + Kubernetes deployment</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>LangServe / Gradio UI options</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Persistent user sessions & chat history</li>
+  <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Integration with Notion, Google Drive, Confluence</li>
 </ul>
+
 
 
