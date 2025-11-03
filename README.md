@@ -133,6 +133,14 @@ Latency,End-to-end query time
 ## 📊 Evaluation Metrics
 <img width="600" height="311" alt="image" src="https://github.com/user-attachments/assets/baa6b9bb-7424-4df3-9557-d389e6b7a956" />
 
+## 🤝 Contributing
+We welcome contributions! See something missing?
+1. Fork the repo
+2. Create your feature branch (git checkout -b feature/amazing-rag)
+3. Commit your changes (git commit -m 'Add amazing RAG feature')
+4. Push and open a Pull Request
+
+
 
 
 
