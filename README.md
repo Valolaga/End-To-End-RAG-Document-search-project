@@ -83,7 +83,55 @@ Option C: CLI Query
 ```
 python query.py --question "What are the main risks mentioned in the annual report?"
 ```
+## 📁 Project Structure
+```
+├── README.md                  # You're here!
+├── requirements.txt           # Python dependencies
+├── config.yaml                # Pipeline settings (chunking, models, thresholds)
+├── .env.example               # Template for API keys
+├── data/                      # ← Put your documents here
+├── index/                     # Stored vector database (FAISS/Chroma)
+├── scripts/
+│   ├── index_documents.py     # Ingestion + embedding pipeline
+│   └── evaluate_rag.py        # Run benchmarks
+├── app.py                     # Streamlit demo interface
+├── api/
+│   └── server.py              # FastAPI endpoints
+├── notebooks/
+│   └── rag_experiments.ipynb  # Exploratory analysis & testing
+├── rag/
+│   ├── loader.py              # Document loaders
+│   ├── chunker.py             # Text splitting logic
+│   ├── embedder.py            # Embedding wrapper
+│   ├── retriever.py           # Search top-k chunks
+│   └── generator.py           # LLM answer synthesis
+└── utils/
+    └── evaluation.py          # Metrics (BLEU, ROUGE, faithfulness)
+```
+## 💡 Usage Examples
+Query via Python
+```
+from rag.pipeline import RAGPipeline
 
+rag = RAGPipeline()
+response = rag.query("Explain the revenue growth strategy in Q3.")
+print(response.answer)
+print(response.sources)  # List of document chunks used
+```
+Evaluate Performance
+```
+python scripts/evaluate_rag.py --test_data eval/qa_pairs.json
+```
+## 📊 Evaluation Metrics
+```
+Metric,Description
+Retrieval Recall@K,% of ground-truth chunks in top-K
+Answer Faithfulness,Does answer stay true to retrieved context?
+Relevance Score,Semantic similarity to ideal answer
+Latency,End-to-end query time
+```
+## 📊 Evaluation Metrics
+<img width="845" height="311" alt="image" src="https://github.com/user-attachments/assets/baa6b9bb-7424-4df3-9557-d389e6b7a956" />
 
 
 
