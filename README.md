@@ -53,13 +53,14 @@ A **complete, modular, and production-ready** Retrieval-Augmented Generation (RA
 ```bash
 git clone https://github.com/Valolaga/End-To-End-RAG-Document-search-project.git
 cd End-To-End-RAG-Document-search-project
+```
 
 2. Install Dependencies
 pip install -r requirements.txt
 
 3. (Optional) Set Environment Variables
 cp .env.example .env
-# Edit .env with your API keys
+#### Edit .env with your API keys
 
 4. Index Your Documents
 Place your documents (PDF, TXT, DOCX, MD) in the data/ folder.
@@ -68,6 +69,7 @@ python scripts/index_documents.py \
   --chunk_size 512 \
   --chunk_overlap 50 \
   --embedding_model sentence-transformers/all-MiniLM-L6-v2
+
 
 
 
