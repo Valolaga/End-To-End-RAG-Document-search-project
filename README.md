@@ -141,20 +141,6 @@ We welcome contributions! See something missing?
 4. Push and open a Pull Request
 
 ## 🚀 Future Roadmap
-- [] Multi-modal RAG (images, tables, charts)
-- [] Advanced reranking (Cross-Encoders, Cohere Rerank)
-- [] Docker + Kubernetes deployment
-- [] LangServe / Gradio UI options
-- [] Persistent user sessions & chat history
-- [] Integration with Notion, Google Drive, Confluence
-
-## 📄 License
-This project is licensed under the MIT License
-
-## ⭐ Star this repo if you found it useful!
-Built with ❤️ for the RAG community.
-Have questions? Open an issue or reach out!
-
 <ul>
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Multi-modal RAG (images, tables, charts)</li>
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Advanced reranking (Cross-Encoders, Cohere Rerank)</li>
@@ -163,6 +149,16 @@ Have questions? Open an issue or reach out!
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Persistent user sessions & chat history</li>
   <li><span style="display:inline-block; width:20px; height:20px; border:2px solid #aaa; border-radius:5px; margin-right:8px;"></span>Integration with Notion, Google Drive, Confluence</li>
 </ul>
+
+## 📄 License
+This project is licensed under the MIT License
+
+## ⭐ Star this repo if you found it useful!
+Built with ❤️ for the RAG community.
+Have questions? Open an issue or reach out!
+
+
+
 
 
 
