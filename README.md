@@ -140,8 +140,18 @@ We welcome contributions! See something missing?
 3. Commit your changes (git commit -m 'Add amazing RAG feature')
 4. Push and open a Pull Request
 
+## 🚀 Future Roadmap
+- [] Multi-modal RAG (images, tables, charts)
+- [] Advanced reranking (Cross-Encoders, Cohere Rerank)
+- [] Docker + Kubernetes deployment
+- [] LangServe / Gradio UI options
+- [] Persistent user sessions & chat history
+- [] Integration with Notion, Google Drive, Confluence
 
+## 📄 License
+This project is licensed under the MIT License
 
-
-
+## ⭐ Star this repo if you found it useful!
+Built with ❤️ for the RAG community.
+Have questions? Open an issue or reach out!
 
