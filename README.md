@@ -70,6 +70,19 @@ python scripts/index_documents.py \
   --chunk_overlap 50 \
   --embedding_model sentence-transformers/all-MiniLM-L6-v2
 
+#### 5. Launch the Query Interface
+Option A: Streamlit UI (Interactive)
+```
+streamlit run app.py
+```
+Option B: FastAPI Server
+```
+uvicorn api.server:app --reload --port 8000
+```
+Option C: CLI Query
+```
+python query.py --question "What are the main risks mentioned in the annual report?"
+```
 
 
 
