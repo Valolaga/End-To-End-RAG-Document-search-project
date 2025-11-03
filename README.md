@@ -131,7 +131,8 @@ Relevance Score,Semantic similarity to ideal answer
 Latency,End-to-end query time
 ```
 ## 📊 Evaluation Metrics
-<img width="845" height="311" alt="image" src="https://github.com/user-attachments/assets/baa6b9bb-7424-4df3-9557-d389e6b7a956" />
+<img width="600" height="311" alt="image" src="https://github.com/user-attachments/assets/baa6b9bb-7424-4df3-9557-d389e6b7a956" />
+
 
 
 
